@@ -1,0 +1,44 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  .dashboard-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-group button,
+  .button-group a {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button-group button:hover,
+  .button-group a:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-group button:last-child,
+  .button-group a:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Additional styles can be added for specific elements or effects */
+  

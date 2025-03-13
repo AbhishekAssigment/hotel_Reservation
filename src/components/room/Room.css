@@ -1,0 +1,200 @@
+/* Room.css */
+.container {
+  margin: 20px auto; /* Center the container */
+  max-width: 800px; /* Set maximum width for better readability */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  
+}
+
+.content {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add some space between heading and table */
+}
+
+.content th, .content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+/* Room.css */
+.room-details {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.room-detail-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.room-detail-label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.room-detail-value {
+  flex: 2;
+}
+/* Room.css */
+.room-details {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.room-detail {
+  margin-bottom: 10px;
+}
+
+.room-detail-label {
+  font-weight: bold;
+}
+
+.room-detail-value {
+  margin-left: 10px;
+}
+
+
+.content th {
+  background-color: #f2f2f2;
+}
+
+.content tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.content tr:hover {
+  background-color: #ddd;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+/* Room.css */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-content {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-content h2 {
+  margin-bottom: 20px;
+}
+
+.form-content form div {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-content label {
+  display: inline-block;
+  width: 150px;
+  color: #333; /* Dark color for label */
+}
+
+.form-content input {
+  width: calc(100% - 160px);
+  padding: 5px;
+}
+
+.button-group {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-group button,
+.button-group a {
+  margin: 0 5px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.button-group button:hover,
+.button-group a:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+/* Room.css */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-content {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-content h2 {
+  margin-bottom: 20px;
+}
+
+.form-content form div.form-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-content label {
+  display: inline-block;
+  width: 150px;
+  color: #333; /* Dark color for label */
+}
+
+.form-content input {
+  width: calc(100% - 160px);
+  padding: 5px;
+}
+
+.button-group {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-group button {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

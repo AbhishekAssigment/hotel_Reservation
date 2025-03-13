@@ -1,0 +1,20 @@
+
+.appBarLink {
+  margin: 0 10px;
+  color: #f1f1f14d;
+  text-decoration: none;
+}
+.nav-link-bold {
+  font-weight: bold;
+}
+.nav-link-button {
+  margin: 0 10px;
+}
+
+.nav-link-button:hover {
+  background-color: white;
+  color: #007bff;
+}
+.signup-button {
+  margin-right: 10px;
+}
